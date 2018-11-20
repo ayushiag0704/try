@@ -1,4 +1,4 @@
 resources:
 - repo: self
   fetchDepth: 15
-  server: true
+server: true
