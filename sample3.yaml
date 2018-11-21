@@ -7,4 +7,6 @@ steps:
 - task: DotNetCoreCLI@2
   displayName: 'dotnet build'
   inputs:
-    projects: '$(yj)'
+    projects: '$(yz)'
+variables:
+ - group: yz
