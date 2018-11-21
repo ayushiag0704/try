@@ -1,0 +1,10 @@
+resources:
+- repo: self
+  fetchDepth: 15
+#queue:
+#  name: Default
+steps:
+- task: DotNetCoreCLI@2
+  displayName: 'dotnet build'
+  inputs:
+    projects: '$(df)'
