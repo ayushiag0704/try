@@ -7,4 +7,4 @@ steps:
   inputs:
     projects: '$(a)'
 variables:
- - group: dum
+ - group: tr1
