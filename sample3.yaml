@@ -6,3 +6,5 @@ steps:
   displayName: 'dotnet build'
   inputs:
     projects: '$(a)'
+variables:
+ - group: tr1
