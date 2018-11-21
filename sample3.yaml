@@ -7,6 +7,6 @@ steps:
 - task: DotNetCoreCLI@2
   displayName: 'dotnet build'
   inputs:
-    projects: 'abc'
-variables:
- - group: dummy
+    projects: 'dummy'
+#variables:
+ #- group: dummy
