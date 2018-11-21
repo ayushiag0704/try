@@ -6,5 +6,5 @@ steps:
   displayName: 'dotnet build'
   inputs:
     projects: '$(aksriv-1)'
-#variables:
- #- group: dummy
+variables:
+ - group: aksriv-1
