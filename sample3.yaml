@@ -7,6 +7,6 @@ steps:
 - task: DotNetCoreCLI@2
   displayName: 'dotnet build'
   inputs:
-    projects: '$(aksriv-1)'
+    projects: '$(dummy)'
 variables:
- - group: aksriv-1
+ - group: dummy
