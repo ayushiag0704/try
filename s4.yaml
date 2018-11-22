@@ -1,0 +1,9 @@
+resources:
+- repo: self
+  fetchDepth: 15
+steps:
+- powershell: echo Hello $(a)
+  displayName: Say hello
+  name: firstStep
+variables:
+ - group: use
