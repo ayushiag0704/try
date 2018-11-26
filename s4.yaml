@@ -6,4 +6,4 @@ steps:
   displayName: Say hello
   name: firstStep
 variables:
- - group: testscen1
+ - group: check1
