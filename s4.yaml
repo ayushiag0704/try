@@ -1,6 +1,8 @@
 resources:
 - repo: self
   fetchDepth: 15
+pool
+  name: Default
 steps:
 - powershell: echo Hello $(a)
   displayName: Say hello
