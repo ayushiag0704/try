@@ -16,3 +16,9 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
     
+- task: AzureResourceGroupDeployment@2
+  displayName: 'Azure Deployment:Start action on ankhokha-update'
+  inputs:
+    azureSubscription: 'arm'
+    action: Start
+    resourceGroupName: 'ankhokha-update'
